@@ -1,0 +1,101 @@
+% DONE
+
+\begin{frame}
+\frametitle{Síntese}
+\framesubtitle{Desidratação de Álcoois}
+
+Desidratação intramolecular de álcoois por ácido sulfúrico.
+
+\begin{figure}
+\centering
+\scalebox{1}{
+\schemestart
+\chemfig{CH_2(-[:0]@{R}CH_2(-[:270] {\color{blue}OH}))(-[:270] {\color{blue}H})}
+\arrow{->[*{0}\ch{H2SO4}][*{0}$170^{\circ}C$]}
+\chemfig{CH_2(=[:0]CH_2)}
+\+
+\ch{\color{blue}H2O}
+% \chemmove{
+%   \draw[
+%     fill=purple,
+%     draw=purple,
+%     fill opacity=.2,
+%     rounded corners=2pt
+%   ]
+%     ([xshift=-10pt,yshift=-3pt]R.south west)
+%     rectangle
+%     ([xshift=4pt,yshift=3pt]R.north east)   node[xshift=0pt,yshift=5pt,above,opacity=1]{Mais estável};
+% }
+\schemestop
+}
+\end{figure}
+
+A temperatura necessária para desidratação depende da classificação do álcool:
+\begin{itemize}
+\item Álcool primário: $\sim$ $170^{\circ}C$
+\item Álcool secundário: $\sim$ $90^{\circ}C$
+\item Álcool terciário: $\sim$ $30^{\circ}C$
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Síntese}
+\framesubtitle{Desidratação de Álcoois}
+
+\textbf{Regra de Saytzeff:} estuda a estabilidade dos alcenos por meio dos calores de hidrogenação. Diz que:\\
+\textit{Quanto mais substituído, mais estável é o alceno.}
+
+\begin{figure}
+\centering
+\scalebox{0.45}{
+\schemestart
+\chemfig{-[:30](-[:90]H)-[:-30](-[:270]OH)-[:30]}
+\arrow{->[*{0}\ch{H2SO4}][*{0}$\Delta$]}
+\chemfig{-[:30]-[:-30]=[:30]}
+\+
+\chemfig{-[:30]@{R}=[:-30]-[:30]}
+\+
+\ch{H2O}
+\chemmove{
+  \draw[
+    fill=purple,
+    draw=red,
+    fill opacity=.2,
+    rounded corners=2pt
+  ]
+    ([xshift=60pt,yshift=20pt]R.south east)
+    rectangle
+    ([xshift=-30pt,yshift=-30pt]R.north west)   node[xshift=45pt,yshift=-10pt,below,opacity=1]{Mais estável};
+}
+\schemestop
+}
+\end{figure}
+
+\begin{figure}
+\centering
+\scalebox{0.45}{
+\schemestart
+\chemfig{*5(---([:120]-)(-[:60]OH)--)}
+\arrow{->[*{0}\ch{H2SO4}][*{0}$\Delta$]}
+\chemfig{*5(---([:90]=)--)}
+\+
+\chemfig{*5(-@{R}-=([:90]-)--)}
+\+
+\ch{H2O}
+\chemmove{
+  \draw[
+    fill=purple,
+    draw=red,
+    fill opacity=.18,
+    rounded corners=2pt
+  ]
+    ([xshift=23pt,yshift=90pt]R.south east)
+    rectangle
+    ([xshift=-35pt,yshift=-10pt]R.north west)   node[xshift=30pt,yshift=-8pt,below,opacity=1]{Mais estável};
+}
+\schemestop
+}
+\end{figure}
+
+\end{frame}

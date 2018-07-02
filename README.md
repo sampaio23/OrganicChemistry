@@ -1,2 +1,3 @@
-# OrganicChemistry
-Repositório para aulas de química orgânica
+### Química Orgânica
+
+Repositório para aulas de reações orgânicas.
